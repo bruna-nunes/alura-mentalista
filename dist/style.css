@@ -1,0 +1,109 @@
+@import @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+body {
+  padding: 10px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/13/00/08/chevrons-937583_960_720.jpg');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.page-logo {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(7, 2, 84, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+}
+.div-centro {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width: 23vw;
+  max-width: 25vw;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 20px 5px 5px 20px;
+  background-color: #f0f0f0;
+  box-shadow: 1px 1px 20px #c9c9c9;
+  transition: all 0.5s;
+}
+
+input {
+  /*border: 2px solid #6C63FF;*/
+  border: none;
+  height: 35px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 20px;
+}
+button {
+  background-color: rgb(64, 196, 255);
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  color: white;
+  margin-top: 20px;
+  border: none;
+}
+#dicas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(7, 2, 84, 0.4);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width:479px) { /* smartphones, Android phones, landscape iPhone */ 
+  .div-centro {
+    width: 95vw;
+    max-width: 95vw;
+  }
+}
+
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
+  .div-centro {
+    width: 95vw;
+    max-width: 95vw;
+  }
+}
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .div-centro {
+    width: 60vw;
+    max-width: 60vw;
+  }
+}
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .div-centro {
+    width: 40vw;
+    max-width: 40vw;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .div-centro {
+    width: 23vw;
+    max-width: 23vw;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
