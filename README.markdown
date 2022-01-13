@@ -8,7 +8,7 @@
 
 ---
 
-### :eyes: Para visualizar o projeto
+### :eyes: Para visualizar o projeto, clique <a href="https://bruna-nunes.github.io/alura-mentalista/dist/index.html">aqui</a>. Ou se preferir:
 1. Baixe ou clone este repositório
 2. Acesse o arquivo index.html, dentro da pasta dist
 
